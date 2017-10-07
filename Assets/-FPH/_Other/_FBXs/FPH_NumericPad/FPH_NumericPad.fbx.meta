@@ -1,0 +1,788 @@
+fileFormatVersion: 2
+guid: fe3f9c877c8044a68a07b520d0073dcc
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: FPH_NumericPad
+    100004: FPH_NumericPadButton
+    100006: FPH_NumericPadButton_001
+    100008: FPH_NumericPadButton_002
+    100010: FPH_NumericPadButton_003
+    100012: FPH_NumericPadButton_004
+    100014: FPH_NumericPadButton_005
+    100016: FPH_NumericPadButton_006
+    100018: FPH_NumericPadButton_007
+    100020: FPH_NumericPadButton_008
+    100022: FPH_NumericPadButton_009
+    100024: FPH_NumericPadButton_010
+    100026: FPH_NumericPadButton_011
+    400000: FPH_NumericPad
+    400002: //RootNode
+    400004: FPH_NumericPadButton
+    400006: FPH_NumericPadButton_001
+    400008: FPH_NumericPadButton_002
+    400010: FPH_NumericPadButton_003
+    400012: FPH_NumericPadButton_004
+    400014: FPH_NumericPadButton_005
+    400016: FPH_NumericPadButton_006
+    400018: FPH_NumericPadButton_007
+    400020: FPH_NumericPadButton_008
+    400022: FPH_NumericPadButton_009
+    400024: FPH_NumericPadButton_010
+    400026: FPH_NumericPadButton_011
+    2300000: FPH_NumericPad
+    2300002: FPH_NumericPadButton
+    2300004: FPH_NumericPadButton_001
+    2300006: FPH_NumericPadButton_002
+    2300008: FPH_NumericPadButton_003
+    2300010: FPH_NumericPadButton_004
+    2300012: FPH_NumericPadButton_005
+    2300014: FPH_NumericPadButton_006
+    2300016: FPH_NumericPadButton_007
+    2300018: FPH_NumericPadButton_008
+    2300020: FPH_NumericPadButton_009
+    2300022: FPH_NumericPadButton_010
+    2300024: FPH_NumericPadButton_011
+    3300000: FPH_NumericPad
+    3300002: FPH_NumericPadButton
+    3300004: FPH_NumericPadButton_001
+    3300006: FPH_NumericPadButton_002
+    3300008: FPH_NumericPadButton_003
+    3300010: FPH_NumericPadButton_004
+    3300012: FPH_NumericPadButton_005
+    3300014: FPH_NumericPadButton_006
+    3300016: FPH_NumericPadButton_007
+    3300018: FPH_NumericPadButton_008
+    3300020: FPH_NumericPadButton_009
+    3300022: FPH_NumericPadButton_010
+    3300024: FPH_NumericPadButton_011
+    4300000: FPH_NumericPadButton_011
+    4300002: FPH_NumericPadButton_010
+    4300004: FPH_NumericPadButton_009
+    4300006: FPH_NumericPadButton_008
+    4300008: FPH_NumericPadButton_007
+    4300010: FPH_NumericPadButton_006
+    4300012: FPH_NumericPadButton_005
+    4300014: FPH_NumericPadButton_004
+    4300016: FPH_NumericPadButton_003
+    4300018: FPH_NumericPadButton_002
+    4300020: FPH_NumericPadButton_001
+    4300022: FPH_NumericPadButton
+    4300024: FPH_NumericPad
+    7400000: FPH_NumPad_Press01
+    7400002: FPH_NumPad_Press02
+    7400004: FPH_NumPad_Press04
+    7400006: FPH_NumPad_Press03
+    7400008: FPH_NumPad_Press05
+    7400010: FPH_NumPad_Press06
+    7400012: FPH_NumPad_Press07
+    7400014: FPH_NumPad_Press08
+    7400016: FPH_NumPad_Press09
+    7400018: FPH_NumPad_PressBack
+    7400020: FPH_NumPad_Press00
+    7400022: FPH_NumPad_PressOk
+    7400024: Default Take
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: FPH_NumPad_Press01
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FPH_NumericPad
+        weight: 1
+      - path: FPH_NumericPadButton
+        weight: 1
+      - path: FPH_NumericPadButton_001
+        weight: 1
+      - path: FPH_NumericPadButton_002
+        weight: 1
+      - path: FPH_NumericPadButton_003
+        weight: 1
+      - path: FPH_NumericPadButton_004
+        weight: 1
+      - path: FPH_NumericPadButton_005
+        weight: 1
+      - path: FPH_NumericPadButton_006
+        weight: 1
+      - path: FPH_NumericPadButton_007
+        weight: 1
+      - path: FPH_NumericPadButton_008
+        weight: 1
+      - path: FPH_NumericPadButton_009
+        weight: 1
+      - path: FPH_NumericPadButton_010
+        weight: 1
+      - path: FPH_NumericPadButton_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FPH_NumPad_Press02
+      takeName: Default Take
+      firstFrame: 10
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FPH_NumericPad
+        weight: 1
+      - path: FPH_NumericPadButton
+        weight: 1
+      - path: FPH_NumericPadButton_001
+        weight: 1
+      - path: FPH_NumericPadButton_002
+        weight: 1
+      - path: FPH_NumericPadButton_003
+        weight: 1
+      - path: FPH_NumericPadButton_004
+        weight: 1
+      - path: FPH_NumericPadButton_005
+        weight: 1
+      - path: FPH_NumericPadButton_006
+        weight: 1
+      - path: FPH_NumericPadButton_007
+        weight: 1
+      - path: FPH_NumericPadButton_008
+        weight: 1
+      - path: FPH_NumericPadButton_009
+        weight: 1
+      - path: FPH_NumericPadButton_010
+        weight: 1
+      - path: FPH_NumericPadButton_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FPH_NumPad_Press03
+      takeName: Default Take
+      firstFrame: 20
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FPH_NumericPad
+        weight: 1
+      - path: FPH_NumericPadButton
+        weight: 1
+      - path: FPH_NumericPadButton_001
+        weight: 1
+      - path: FPH_NumericPadButton_002
+        weight: 1
+      - path: FPH_NumericPadButton_003
+        weight: 1
+      - path: FPH_NumericPadButton_004
+        weight: 1
+      - path: FPH_NumericPadButton_005
+        weight: 1
+      - path: FPH_NumericPadButton_006
+        weight: 1
+      - path: FPH_NumericPadButton_007
+        weight: 1
+      - path: FPH_NumericPadButton_008
+        weight: 1
+      - path: FPH_NumericPadButton_009
+        weight: 1
+      - path: FPH_NumericPadButton_010
+        weight: 1
+      - path: FPH_NumericPadButton_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FPH_NumPad_Press04
+      takeName: Default Take
+      firstFrame: 30
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FPH_NumericPad
+        weight: 1
+      - path: FPH_NumericPadButton
+        weight: 1
+      - path: FPH_NumericPadButton_001
+        weight: 1
+      - path: FPH_NumericPadButton_002
+        weight: 1
+      - path: FPH_NumericPadButton_003
+        weight: 1
+      - path: FPH_NumericPadButton_004
+        weight: 1
+      - path: FPH_NumericPadButton_005
+        weight: 1
+      - path: FPH_NumericPadButton_006
+        weight: 1
+      - path: FPH_NumericPadButton_007
+        weight: 1
+      - path: FPH_NumericPadButton_008
+        weight: 1
+      - path: FPH_NumericPadButton_009
+        weight: 1
+      - path: FPH_NumericPadButton_010
+        weight: 1
+      - path: FPH_NumericPadButton_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FPH_NumPad_Press05
+      takeName: Default Take
+      firstFrame: 40
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FPH_NumericPad
+        weight: 1
+      - path: FPH_NumericPadButton
+        weight: 1
+      - path: FPH_NumericPadButton_001
+        weight: 1
+      - path: FPH_NumericPadButton_002
+        weight: 1
+      - path: FPH_NumericPadButton_003
+        weight: 1
+      - path: FPH_NumericPadButton_004
+        weight: 1
+      - path: FPH_NumericPadButton_005
+        weight: 1
+      - path: FPH_NumericPadButton_006
+        weight: 1
+      - path: FPH_NumericPadButton_007
+        weight: 1
+      - path: FPH_NumericPadButton_008
+        weight: 1
+      - path: FPH_NumericPadButton_009
+        weight: 1
+      - path: FPH_NumericPadButton_010
+        weight: 1
+      - path: FPH_NumericPadButton_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FPH_NumPad_Press06
+      takeName: Default Take
+      firstFrame: 50
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FPH_NumericPad
+        weight: 1
+      - path: FPH_NumericPadButton
+        weight: 1
+      - path: FPH_NumericPadButton_001
+        weight: 1
+      - path: FPH_NumericPadButton_002
+        weight: 1
+      - path: FPH_NumericPadButton_003
+        weight: 1
+      - path: FPH_NumericPadButton_004
+        weight: 1
+      - path: FPH_NumericPadButton_005
+        weight: 1
+      - path: FPH_NumericPadButton_006
+        weight: 1
+      - path: FPH_NumericPadButton_007
+        weight: 1
+      - path: FPH_NumericPadButton_008
+        weight: 1
+      - path: FPH_NumericPadButton_009
+        weight: 1
+      - path: FPH_NumericPadButton_010
+        weight: 1
+      - path: FPH_NumericPadButton_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FPH_NumPad_Press07
+      takeName: Default Take
+      firstFrame: 60
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FPH_NumericPad
+        weight: 1
+      - path: FPH_NumericPadButton
+        weight: 1
+      - path: FPH_NumericPadButton_001
+        weight: 1
+      - path: FPH_NumericPadButton_002
+        weight: 1
+      - path: FPH_NumericPadButton_003
+        weight: 1
+      - path: FPH_NumericPadButton_004
+        weight: 1
+      - path: FPH_NumericPadButton_005
+        weight: 1
+      - path: FPH_NumericPadButton_006
+        weight: 1
+      - path: FPH_NumericPadButton_007
+        weight: 1
+      - path: FPH_NumericPadButton_008
+        weight: 1
+      - path: FPH_NumericPadButton_009
+        weight: 1
+      - path: FPH_NumericPadButton_010
+        weight: 1
+      - path: FPH_NumericPadButton_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FPH_NumPad_Press08
+      takeName: Default Take
+      firstFrame: 70
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FPH_NumericPad
+        weight: 1
+      - path: FPH_NumericPadButton
+        weight: 1
+      - path: FPH_NumericPadButton_001
+        weight: 1
+      - path: FPH_NumericPadButton_002
+        weight: 1
+      - path: FPH_NumericPadButton_003
+        weight: 1
+      - path: FPH_NumericPadButton_004
+        weight: 1
+      - path: FPH_NumericPadButton_005
+        weight: 1
+      - path: FPH_NumericPadButton_006
+        weight: 1
+      - path: FPH_NumericPadButton_007
+        weight: 1
+      - path: FPH_NumericPadButton_008
+        weight: 1
+      - path: FPH_NumericPadButton_009
+        weight: 1
+      - path: FPH_NumericPadButton_010
+        weight: 1
+      - path: FPH_NumericPadButton_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FPH_NumPad_Press09
+      takeName: Default Take
+      firstFrame: 80
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FPH_NumericPad
+        weight: 1
+      - path: FPH_NumericPadButton
+        weight: 1
+      - path: FPH_NumericPadButton_001
+        weight: 1
+      - path: FPH_NumericPadButton_002
+        weight: 1
+      - path: FPH_NumericPadButton_003
+        weight: 1
+      - path: FPH_NumericPadButton_004
+        weight: 1
+      - path: FPH_NumericPadButton_005
+        weight: 1
+      - path: FPH_NumericPadButton_006
+        weight: 1
+      - path: FPH_NumericPadButton_007
+        weight: 1
+      - path: FPH_NumericPadButton_008
+        weight: 1
+      - path: FPH_NumericPadButton_009
+        weight: 1
+      - path: FPH_NumericPadButton_010
+        weight: 1
+      - path: FPH_NumericPadButton_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FPH_NumPad_PressBack
+      takeName: Default Take
+      firstFrame: 90
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FPH_NumericPad
+        weight: 1
+      - path: FPH_NumericPadButton
+        weight: 1
+      - path: FPH_NumericPadButton_001
+        weight: 1
+      - path: FPH_NumericPadButton_002
+        weight: 1
+      - path: FPH_NumericPadButton_003
+        weight: 1
+      - path: FPH_NumericPadButton_004
+        weight: 1
+      - path: FPH_NumericPadButton_005
+        weight: 1
+      - path: FPH_NumericPadButton_006
+        weight: 1
+      - path: FPH_NumericPadButton_007
+        weight: 1
+      - path: FPH_NumericPadButton_008
+        weight: 1
+      - path: FPH_NumericPadButton_009
+        weight: 1
+      - path: FPH_NumericPadButton_010
+        weight: 1
+      - path: FPH_NumericPadButton_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FPH_NumPad_Press00
+      takeName: Default Take
+      firstFrame: 100
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FPH_NumericPad
+        weight: 1
+      - path: FPH_NumericPadButton
+        weight: 1
+      - path: FPH_NumericPadButton_001
+        weight: 1
+      - path: FPH_NumericPadButton_002
+        weight: 1
+      - path: FPH_NumericPadButton_003
+        weight: 1
+      - path: FPH_NumericPadButton_004
+        weight: 1
+      - path: FPH_NumericPadButton_005
+        weight: 1
+      - path: FPH_NumericPadButton_006
+        weight: 1
+      - path: FPH_NumericPadButton_007
+        weight: 1
+      - path: FPH_NumericPadButton_008
+        weight: 1
+      - path: FPH_NumericPadButton_009
+        weight: 1
+      - path: FPH_NumericPadButton_010
+        weight: 1
+      - path: FPH_NumericPadButton_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FPH_NumPad_PressOk
+      takeName: Default Take
+      firstFrame: 110
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FPH_NumericPad
+        weight: 1
+      - path: FPH_NumericPadButton
+        weight: 1
+      - path: FPH_NumericPadButton_001
+        weight: 1
+      - path: FPH_NumericPadButton_002
+        weight: 1
+      - path: FPH_NumericPadButton_003
+        weight: 1
+      - path: FPH_NumericPadButton_004
+        weight: 1
+      - path: FPH_NumericPadButton_005
+        weight: 1
+      - path: FPH_NumericPadButton_006
+        weight: 1
+      - path: FPH_NumericPadButton_007
+        weight: 1
+      - path: FPH_NumericPadButton_008
+        weight: 1
+      - path: FPH_NumericPadButton_009
+        weight: 1
+      - path: FPH_NumericPadButton_010
+        weight: 1
+      - path: FPH_NumericPadButton_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .300000012
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FPH_BedsideTable_Open
+  serializedVersion: 4
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -.199990854, y: 1.41453683, z: -.0839994326}
+        inSlope: {x: .430365771, y: -2.38418579e-07, z: -4.02331352e-07}
+        outSlope: {x: .430365771, y: -2.38418579e-07, z: -4.02331352e-07}
+        tangentMode: 1852138323
+      - time: .5
+        value: {x: .0151920319, y: 1.41453671, z: -.0839996338}
+        inSlope: {x: .430365771, y: -2.38418579e-07, z: -4.02331352e-07}
+        outSlope: {x: .430365771, y: -2.38418579e-07, z: -4.02331352e-07}
+        tangentMode: 3145777
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: FPH_BedSideTable_001
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: .5
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.199990854
+        inSlope: .430365771
+        outSlope: .430365771
+        tangentMode: 10
+      - time: .5
+        value: .0151920319
+        inSlope: .430365771
+        outSlope: .430365771
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: FPH_BedSideTable_001
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.41453683
+        inSlope: -2.38418579e-07
+        outSlope: -2.38418579e-07
+        tangentMode: 10
+      - time: .5
+        value: 1.41453671
+        inSlope: -2.38418579e-07
+        outSlope: -2.38418579e-07
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: FPH_BedSideTable_001
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.0839994326
+        inSlope: -4.02331352e-07
+        outSlope: -4.02331352e-07
+        tangentMode: 10
+      - time: .5
+        value: -.0839996338
+        inSlope: -4.02331352e-07
+        outSlope: -4.02331352e-07
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: FPH_BedSideTable_001
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []

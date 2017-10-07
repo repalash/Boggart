@@ -1,0 +1,81 @@
+fileFormatVersion: 2
+guid: ee277ad2bba424a7794006dbdb54423f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: FPH_Door_Diffuse
+    100002: FPH_Door_Diffuse2
+    100004: FPH_Wall_Diffuse
+    100006: FPH_WallBathroom
+    100008: //RootNode
+    400000: FPH_Door_Diffuse
+    400002: FPH_Door_Diffuse2
+    400004: FPH_Wall_Diffuse
+    400006: FPH_WallBathroom
+    400008: //RootNode
+    2300000: FPH_Door_Diffuse
+    2300002: FPH_Door_Diffuse2
+    2300004: FPH_Wall_Diffuse
+    2300006: FPH_WallBathroom
+    3300000: FPH_Door_Diffuse
+    3300002: FPH_Door_Diffuse2
+    3300004: FPH_Wall_Diffuse
+    3300006: FPH_WallBathroom
+    4300000: FPH_Door_Diffuse
+    4300002: FPH_Door_Diffuse2
+    4300004: FPH_Wall_Diffuse
+    4300006: FPH_WallBathroom
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .300000012
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 

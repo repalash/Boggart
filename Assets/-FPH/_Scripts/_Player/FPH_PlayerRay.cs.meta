@@ -1,0 +1,39 @@
+fileFormatVersion: 2
+guid: 060ccb4a6720349f7852672f3e94c127
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mobileSkin: {fileID: 11400000, guid: 65c699978690f4364a5e04206ad5a76b, type: 2}
+  - mobileButton_Observe: {fileID: 2800000, guid: 384e6706f27754f3c91d241c5ff63a1f,
+      type: 3}
+  - mobileButton_Dialog: {fileID: 2800000, guid: d0b716a30b6774902be74a53969f8ddf,
+      type: 3}
+  - mobileButton_Door: {fileID: 2800000, guid: a203992ce4cc843c19f9532c1bc3ba36, type: 3}
+  - mobileButton_Interact: {fileID: 2800000, guid: 8f62e63bde7794c5889d272938da09db,
+      type: 3}
+  - mobileButton_Inventory: {fileID: 2800000, guid: 2909845c555624999ad8ff74988c3682,
+      type: 3}
+  - mobileButton_ChangeLevel: {fileID: 2800000, guid: 5f4130c783794483d98d2d296fd80380,
+      type: 3}
+  - pointerText: {fileID: 2800000, guid: 68bd49ee44d9f4f4586db08bef9305a2, type: 3}
+  - ponter_Inventory: {fileID: 2800000, guid: a0848bb20600d4fc6af9a6db23d0c5d0, type: 3}
+  - ponter_Inventory_Observe: {fileID: 2800000, guid: 6c77b4b7837854a529ef224866a3e537,
+      type: 3}
+  - pointer_Observe: {fileID: 2800000, guid: e2ce40bb4c2704c2a9a49e225e87c56a, type: 3}
+  - pointer_Interact: {fileID: 2800000, guid: 92ea19a931e4346d0bef1a8ddce952e9, type: 3}
+  - pointer_Interact_Observe: {fileID: 2800000, guid: 382f4675915be460f974cc0bb099d914,
+      type: 3}
+  - pointer_ChangeLevel: {fileID: 2800000, guid: bb630c5269291401e9476bec58b91468,
+      type: 3}
+  - pointer_ChangeLevel_Observe: {instanceID: 0}
+  - pointer_Dialog: {fileID: 2800000, guid: b6ac7893ed5754518b7762c3b6b3ebc5, type: 3}
+  - pointer_ShowText: {fileID: 2800000, guid: e2ce40bb4c2704c2a9a49e225e87c56a, type: 3}
+  - ponter_Door: {fileID: 2800000, guid: a9d8935e10a6b4534831d7424d2e010e, type: 3}
+  - ponter_Door_Observe: {fileID: 2800000, guid: a9d8935e10a6b4534831d7424d2e010e,
+      type: 3}
+  - ponter_DoorDrag: {fileID: 2800000, guid: 1e3bbe797500145b3a4b56340145f8d9, type: 3}
+  - ponter_DoorDrag_Observe: {fileID: 2800000, guid: 5471bf09923074481a8f05c05c3d7556,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

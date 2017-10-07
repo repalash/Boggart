@@ -1,0 +1,503 @@
+fileFormatVersion: 2
+guid: 0f3dc111c4b774d3aa27b14c62ceab41
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: anu1_l
+    100002: anu2_l
+    100004: anu3_l
+    100006: avanbra_l
+    100008: avanbra_l_001
+    100010: avanbra_l_002
+    100012: FPH_FlashLight
+    100014: FPH_Hand
+    100016: //RootNode
+    100018: Hand
+    100020: ikanu_l
+    100022: ikind_l
+    100024: ikmed_l
+    100026: ikmign_l
+    100028: ikpol_l
+    100030: ind1_l
+    100032: ind2_l
+    100034: ind3_l
+    100036: mano_l
+    100038: med1_l
+    100040: med2_l
+    100042: med3_l
+    100044: mign1_l
+    100046: mign2_l
+    100048: mign3_l
+    100050: pol1_l
+    100052: pol2_l
+    100054: pol3_l
+    100056: polanu_l
+    100058: poleP_l
+    100060: polind_l
+    100062: polmign_l
+    100064: pomed_l
+    400000: anu1_l
+    400002: anu2_l
+    400004: anu3_l
+    400006: avanbra_l
+    400008: avanbra_l_001
+    400010: avanbra_l_002
+    400012: FPH_FlashLight
+    400014: //RootNode
+    400016: FPH_Hand
+    400018: Hand
+    400020: ikanu_l
+    400022: ikind_l
+    400024: ikmed_l
+    400026: ikmign_l
+    400028: ikpol_l
+    400030: ind1_l
+    400032: ind2_l
+    400034: ind3_l
+    400036: mano_l
+    400038: med1_l
+    400040: med2_l
+    400042: med3_l
+    400044: mign1_l
+    400046: mign2_l
+    400048: mign3_l
+    400050: pol1_l
+    400052: pol2_l
+    400054: pol3_l
+    400056: polanu_l
+    400058: poleP_l
+    400060: polind_l
+    400062: polmign_l
+    400064: pomed_l
+    2300000: FPH_FlashLight
+    3300000: FPH_FlashLight
+    4300000: Hand
+    4300002: FPH_FlashLight
+    7400000: Idle
+    7400002: SwitchLight
+    7400004: Down
+    7400006: Up
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Hand
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 109
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FPH_FlashLight
+        weight: 1
+      - path: FPH_Hand
+        weight: 1
+      - path: FPH_Hand/avanbra_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/anu1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/anu1_l/anu2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/anu1_l/anu2_l/anu3_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/ind1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/ind1_l/ind2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/ind1_l/ind2_l/ind3_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/med1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/med1_l/med2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/med1_l/med2_l/med3_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/mign1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/mign1_l/mign2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/mign1_l/mign2_l/mign3_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/pol1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/pol1_l/pol2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/pol1_l/pol2_l/pol3_l
+        weight: 1
+      - path: FPH_Hand/ikanu_l
+        weight: 1
+      - path: FPH_Hand/ikind_l
+        weight: 1
+      - path: FPH_Hand/ikmed_l
+        weight: 1
+      - path: FPH_Hand/ikmign_l
+        weight: 1
+      - path: FPH_Hand/ikpol_l
+        weight: 1
+      - path: FPH_Hand/polanu_l
+        weight: 1
+      - path: FPH_Hand/poleP_l
+        weight: 1
+      - path: FPH_Hand/polind_l
+        weight: 1
+      - path: FPH_Hand/polmign_l
+        weight: 1
+      - path: FPH_Hand/pomed_l
+        weight: 1
+      - path: Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: SwitchLight
+      takeName: Default Take
+      firstFrame: 111
+      lastFrame: 124
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FPH_FlashLight
+        weight: 1
+      - path: FPH_Hand
+        weight: 1
+      - path: FPH_Hand/avanbra_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/anu1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/anu1_l/anu2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/anu1_l/anu2_l/anu3_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/ind1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/ind1_l/ind2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/ind1_l/ind2_l/ind3_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/med1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/med1_l/med2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/med1_l/med2_l/med3_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/mign1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/mign1_l/mign2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/mign1_l/mign2_l/mign3_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/pol1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/pol1_l/pol2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/pol1_l/pol2_l/pol3_l
+        weight: 1
+      - path: FPH_Hand/ikanu_l
+        weight: 1
+      - path: FPH_Hand/ikind_l
+        weight: 1
+      - path: FPH_Hand/ikmed_l
+        weight: 1
+      - path: FPH_Hand/ikmign_l
+        weight: 1
+      - path: FPH_Hand/ikpol_l
+        weight: 1
+      - path: FPH_Hand/polanu_l
+        weight: 1
+      - path: FPH_Hand/poleP_l
+        weight: 1
+      - path: FPH_Hand/polind_l
+        weight: 1
+      - path: FPH_Hand/polmign_l
+        weight: 1
+      - path: FPH_Hand/pomed_l
+        weight: 1
+      - path: Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Down
+      takeName: Default Take
+      firstFrame: 125
+      lastFrame: 144
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FPH_FlashLight
+        weight: 1
+      - path: FPH_Hand
+        weight: 1
+      - path: FPH_Hand/avanbra_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/anu1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/anu1_l/anu2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/anu1_l/anu2_l/anu3_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/ind1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/ind1_l/ind2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/ind1_l/ind2_l/ind3_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/med1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/med1_l/med2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/med1_l/med2_l/med3_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/mign1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/mign1_l/mign2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/mign1_l/mign2_l/mign3_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/pol1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/pol1_l/pol2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/pol1_l/pol2_l/pol3_l
+        weight: 1
+      - path: FPH_Hand/ikanu_l
+        weight: 1
+      - path: FPH_Hand/ikind_l
+        weight: 1
+      - path: FPH_Hand/ikmed_l
+        weight: 1
+      - path: FPH_Hand/ikmign_l
+        weight: 1
+      - path: FPH_Hand/ikpol_l
+        weight: 1
+      - path: FPH_Hand/polanu_l
+        weight: 1
+      - path: FPH_Hand/poleP_l
+        weight: 1
+      - path: FPH_Hand/polind_l
+        weight: 1
+      - path: FPH_Hand/polmign_l
+        weight: 1
+      - path: FPH_Hand/pomed_l
+        weight: 1
+      - path: Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Up
+      takeName: Default Take
+      firstFrame: 144
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FPH_FlashLight
+        weight: 1
+      - path: FPH_Hand
+        weight: 1
+      - path: FPH_Hand/avanbra_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/anu1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/anu1_l/anu2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/anu1_l/anu2_l/anu3_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/ind1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/ind1_l/ind2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/ind1_l/ind2_l/ind3_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/med1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/med1_l/med2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/med1_l/med2_l/med3_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/mign1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/mign1_l/mign2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/mign1_l/mign2_l/mign3_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/pol1_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/pol1_l/pol2_l
+        weight: 1
+      - path: FPH_Hand/avanbra_l/avanbra_l_001/avanbra_l_002/mano_l/pol1_l/pol2_l/pol3_l
+        weight: 1
+      - path: FPH_Hand/ikanu_l
+        weight: 1
+      - path: FPH_Hand/ikind_l
+        weight: 1
+      - path: FPH_Hand/ikmed_l
+        weight: 1
+      - path: FPH_Hand/ikmign_l
+        weight: 1
+      - path: FPH_Hand/ikpol_l
+        weight: 1
+      - path: FPH_Hand/polanu_l
+        weight: 1
+      - path: FPH_Hand/poleP_l
+        weight: 1
+      - path: FPH_Hand/polind_l
+        weight: 1
+      - path: FPH_Hand/polmign_l
+        weight: 1
+      - path: FPH_Hand/pomed_l
+        weight: 1
+      - path: Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .300000012
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
