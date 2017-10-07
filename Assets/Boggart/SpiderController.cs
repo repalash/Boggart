@@ -5,10 +5,12 @@ using UnityEngine;
 public class SpiderController : MonoBehaviour {
 
 	Vector3 initLocation;
+	Vector3 gazePoint;
 	Quaternion initRotation;
 	Animation animation;
 	Rigidbody rigidBody;
 	GameObject player;
+	bool isDead = true;
 	// Use this for initialization
 	void Start () {
 		initLocation = transform.position;
@@ -20,7 +22,7 @@ public class SpiderController : MonoBehaviour {
 		StartCoroutine ("RandomAttack");
 		StartCoroutine ("JumpRoutine");
 		StartCoroutine ("KillRoutine");
-		StartCoroutine ("KillRoutine");
+		StartCoroutine ("WatchPlayer");
 	}
 	
 	// Update is called once per frame
@@ -28,15 +30,23 @@ public class SpiderController : MonoBehaviour {
 		
 	}
 
+	void FixedUpdate(){
+		Vector3 direction = gazePoint - transform.position;
+		Quaternion toRotation = Quaternion.FromToRotation (transform.forward, direction);
+		transform.rotation = Quaternion.Lerp (transform.rotation, toRotation, Time.fixedDeltaTime);
+	}
+
 	public void Spawn() {
 		ResetLocation ();
 		rigidBody.isKinematic = false;
+		isDead = false ;
 	}
 
 	public void ResetLocation(){
 		transform.position = initLocation;
 		transform.rotation = initRotation;
 		rigidBody.isKinematic = true;
+		isDead = true;
 		MakeWalk ();
 	}
 
@@ -54,9 +64,9 @@ public class SpiderController : MonoBehaviour {
 		yield return new WaitForSeconds (Random.Range(2f,5f));
 		while (true) {
 			yield return new WaitForSeconds (Random.Range(3f,6f));
-			animation.Blend ("attack1");
+			if(!isDead) animation.Blend ("attack1");
 			yield return new WaitForSeconds (Random.Range(2f,5f));
-			animation.Blend ("attack2");
+			if(!isDead) animation.Blend ("attack2");
 		}
 	}
 
@@ -64,19 +74,30 @@ public class SpiderController : MonoBehaviour {
 		yield return new WaitForSeconds (Random.Range(2f,5f));
 		while (true) {
 			yield return new WaitForSeconds (Random.Range(4f,9f));
-			animation.Blend ("jump");
+			if(!isDead) animation.Blend ("jump");
 		}
 	}
 		
 	IEnumerator KillRoutine(){
 		yield return new WaitForSeconds (Random.Range(2f,5f));
 		while (true) {
-			yield return new WaitForSeconds (Random.Range(2f,18f));
+			yield return new WaitForSeconds (Random.Range(5f,20f));
 			animation.Play ("death2");
-			yield return new WaitForSeconds (5f);
+			isDead = true;
+			yield return new WaitForSeconds (2.5f);
 			Spawn ();
 			yield return new WaitForSeconds (7f);
 		}
 	}
 
+	IEnumerator WatchPlayer(){
+		yield return new WaitForSeconds (Random.Range(2f,5f));
+		while (true) {
+			yield return new WaitForSeconds (Random.Range(2f,3f));
+			gazePoint = player.transform.position;
+			if(!isDead) animation.CrossFade ("walk");
+			yield return new WaitForSeconds (1f);
+			if(!isDead) animation.CrossFade ("idle");
+		}
+	}
 }
