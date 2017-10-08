@@ -37,7 +37,34 @@ namespace Coloreality
 				showGUI = true;
 			};
 			cManager.network.OnError += (object sender, ErrorEventArgs e) => info += "\r\nError: " + e.Message;
-		}
+            StartCoroutine("ConnectToServer");
+        }
+
+        IEnumerator ConnectToServer()
+        {
+            yield return new WaitForSeconds(2f);
+            int portResult;
+            inputIp = "10.1.26.155";
+            inputPort = "2333";
+            int ctr = 0;
+            while (true)
+            {
+                if (int.TryParse(inputPort, out portResult))
+                {
+                    cManager.TryConnect(inputIp, portResult);
+                }
+                else
+                {
+                    info = "Port is not in right format.";
+                }
+                ctr++;
+                yield return new WaitForSeconds(15f);
+                if (ctr == 3)
+                {
+                    Application.LoadLevel(Application.loadedLevel);
+                }
+            }
+        }
 		
 		string info = "Please enter the server's IP and Port, then click [Connect].";
 
