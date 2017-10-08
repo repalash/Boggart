@@ -124,8 +124,10 @@ public class FPH_ControlManager : MonoBehaviour {
 
 			// Uncomment these lines if using Unity 5
 
-			Cursor.lockState = CursorLockMode.Locked;
-			Cursor.visible = false;
+			Cursor.lockState = CursorLockMode.None;
+			Cursor.visible = true;
+			//Cursor.lockState = CursorLockMode.Locked;
+			//Cursor.visible = false;
 
 		}
 		else{

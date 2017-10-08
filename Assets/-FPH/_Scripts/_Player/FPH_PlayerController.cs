@@ -9,9 +9,10 @@ public class FPH_PlayerController : MonoBehaviour{
 	#region FirstPerson
 	public bool runByDefault = false; //controls how the walk/run modifier key behaves.
 	public float runSpeed = 8f; //The speed at which we want the character to move
-	public float walkSpeed = 3f; //The speed at which we want the character to move
+	public float walkSpeed = 4f; //The speed at which we want the character to move
 	public float gravityMultiplier = 1f; //Changes the way gravity effect the player ( realistic gravity can look bad for jumping in game )
 	public float groundStickyEffect = 5f; //power of 'stick to ground' effect - prevents bumping down slopes.
+	public GameObject mCameraObj;
 	public GameObject handObj;
 
 	public bool grounded;
@@ -66,6 +67,10 @@ public class FPH_PlayerController : MonoBehaviour{
 	}
 
 	void Start(){
+		mCameraObj = Camera.main.gameObject;
+	}
+
+	public void Update(){
 	}
 
 	public void FixedUpdate(){
@@ -100,13 +105,14 @@ public class FPH_PlayerController : MonoBehaviour{
 				}
 
 				Vector2 input = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-				
+				if (Input.touchCount > 0)
+					input = new Vector2 (0, 1);
 				//Normalize input if it exceeds 1 in combined length:
 				if(input.sqrMagnitude > 1){
 					input.Normalize();
 				}
 				
-				Vector3 desiredMove = transform.forward * input.y * speed + transform.right * input.x; //Get a vector which is desired move as a world-relative direction, including speeds
+				Vector3 desiredMove = mCameraObj.transform.forward * input.y * speed + mCameraObj.transform.right * input.x; //Get a vector which is desired move as a world-relative direction, including speeds
 				float yv = GetComponent<Rigidbody>().velocity.y; //preserving current y velocity (for falling, gravity)
 				GetComponent<Rigidbody>().velocity = desiredMove + Vector3.up * yv; //Set the rigidbody's velocity according to the ground angle and desired move
 				
